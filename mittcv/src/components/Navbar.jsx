@@ -12,7 +12,7 @@ export const Navbar = () => {
     <nav>
       {/* Titel länkar till root-path (/) */}
       <Link to="/" className="title">
-        Hassecode
+        Hassecodes
       </Link>
       {/* Hamburgermenyn visas på små skärmar */}
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
