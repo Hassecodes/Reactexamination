@@ -1,0 +1,38 @@
+.projects-page {
+  margin: 2rem;;
+}
+
+.like-display {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.gilla-button {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.gilla-button:hover {
+  background-color: #1e40af;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(12, 12, 70);
+  border-radius: 0.5rem;
+}
+
+/* Responsiv anpassning i mobil */
+@media (max-width: 768px) {
+  .projects-container {
+    gap: 2rem;           
+    flex-direction: column; 
+    align-items: center;    
+  }
+}
