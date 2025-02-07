@@ -18,7 +18,7 @@ function Home() {
 
   return (
     <section className="home-container">
-      <h1>Välkommen till HasseCode!</h1>
+      <h1>Välkommen till HasseCodes!</h1>
 
       <button onClick={toggleMoreInfo}>
         {showMore ? "Klicka inte på mig!" : "Klicka på mig!"}
